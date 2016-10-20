@@ -6,12 +6,12 @@
 require_relative 'unit_converter_class.rb'
 
 
-print "You have: "
+print "Convert (i.e. 1000g): "
 while from = gets
   from.chomp!
   break if from == ""
 
-  print "You the unit want(i.e. 1kg): "
+  print "You want to convert into: "
   to = gets.chomp
   break if to == ""
 
