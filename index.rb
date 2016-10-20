@@ -1,9 +1,5 @@
 # 
-# This module provides unit conversion.  The main public name is
-# the method ratio, which gives the ratio of two dimensioned expressions, 
-# or throws an exception if they do not conform.  The exceptions are also
-# public, as are the BaseUnit and ConvertableUnit classes, which can be used
-# to add conversion information to the module.
+# This module provides unit conversion.
 #
 #   TxUnits.ratio(from, to)
 
@@ -15,7 +11,7 @@ while from = gets
   from.chomp!
   break if from == ""
 
-  print "You want: "
+  print "You the unit want(i.e. 1kg): "
   to = gets.chomp
   break if to == ""
 
